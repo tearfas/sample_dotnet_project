@@ -4,7 +4,7 @@ metadata:
   name: dotnet-app-deployment
   namespace: devops
 spec:
-  replicas: 4 # Set the desired number of replicas
+  replicas: 3 # Set the desired number of replicas
   selector:
     matchLabels:
       app: dotnet-app
